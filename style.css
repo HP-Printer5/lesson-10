@@ -1,8 +1,40 @@
 body{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: antiquewhite;
 }
 
 div{
     margin-bottom: 20px;
+}
+
+a{
+    background-color: azure;
+    color:black;
+    border-radius:5%;
+}
+
+img{
+    width:400px;
+    display:inline-block;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.photos{
+    margin:auto;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
